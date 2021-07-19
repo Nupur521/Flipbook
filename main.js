@@ -16,7 +16,17 @@ let currentLocation = 1;
 let numOfPapers = 3;
 let maxLocation = numOfPapers + 1;
 
-function openBook() {
+//button javascript
+
+$('button').onClick(function()
+{
+    //   window.open('https://www.google.com/maps/place/Ladakh/@34.1458816,75.6028537,7z/data=!3m1!4b1!4m5!3m4!1s0x38fde3fd16bbc7db:0xce085a7bd537aa24!8m2!3d34.2996176!4d78.2931706',
+    //  'blank')});
+     alert("no");
+     window.location.href="https://www.google.com/maps/place/Ladakh/@34.1458816,75.6028537,7z/data=!3m1!4b1!4m5!3m4!1s0x38fde3fd16bbc7db:0xce085a7bd537aa24!8m2!3d34.2996176!4d78.2931706";
+});
+
+    function openBook() {
     book.style.transform = "translateX(50%)";
     prevBtn.style.transform = "translateX(-180px)";
     nextBtn.style.transform = "translateX(180px)";
