@@ -1,18 +1,44 @@
 .parallax1{
-    background: url('https://cdn.pixabay.com/photo/2021/01/28/21/12/wave-5959087_960_720.jpg') no-repeat center;
-    background-attachment: fixed;
     height: 100%;
     background-size: cover;
     width: 560px;
 
 }
-
 .parallax2{
-    background: url('https://cdn.pixabay.com/photo/2020/01/21/20/44/mountains-4783955_960_720.jpg') no-repeat center;
     background-attachment: fixed;
     height: 100%;
     background-size: cover;
     width: 560px;
+}
+
+#f1>.parallax1, .page1{
+    background:url('https://www.holidify.com/images/bgImages/LADAKH.jpg') no-repeat center;
+    background-attachment: fixed;
+}
+
+#f1>.parallax2,.page1{
+    background:url('https://static.businessworld.in/article/article_extra_large_image/1568796121_f5AMoq_Ladakh_660x330.jpg') no-repeat center;
+    background-attachment: fixed;
+}
+
+#b1>.parallax1,.page2{
+    background:url('https://www.planetware.com/photos-large/IND/india-delhi-red-fort.jpg') no-repeat center;
+    background-attachment: fixed;
+}
+
+#b1>.parallax2,.page2{
+    background:url('https://www.planetware.com/photos-large/IND/india-delhi-india-gate.jpg') no-repeat center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.back, .hardcover > .back-content{
+    background-color: #8e838377;
+    padding: 0%;
+    justify-content: center;
 }
 
 .link{
@@ -24,6 +50,11 @@
 .icons{
     margin-left: 20px;
     width:50px;
+    background: beige;
+}
+
+.icons.facebook:hover{
+    content: "facebook link to tourism" !important;
 }
 
 * {
